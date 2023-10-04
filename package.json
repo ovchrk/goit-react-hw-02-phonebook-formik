@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "d": "npm run lint && vite",
-    "b": "bun lint && vite build --base=/ReactTemplate/",
+    "b": "bun lint && vite build --base=/goit-react-hw-02-phonebook-formik/",
     "lint": "eslint src",
     "lint:fix": "eslint --fix src"
   },
