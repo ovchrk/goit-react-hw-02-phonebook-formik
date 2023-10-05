@@ -14,11 +14,10 @@ class App extends Component {
   }
   addContact = ({name, number}) => {
     const newContact = {
-      id: nanoid(),
+      id: nanoid(5),
       name: name,
       number: number,
     }
-    console.log(newContact);
     
     const inList = this.state.contacts.some(contact => contact.name === newContact.name);
 
